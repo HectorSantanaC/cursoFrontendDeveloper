@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+            width: 400px;
+            height: 600px;
+            background: navajowhite;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        div {
+            position: absolute;
+        }
+        .portada img {
+            width: 100%;
+            z-index: 1;
+        }
+        .photo img {
+            width: 40%;
+            z-index: 2;
+            border-radius: 50%;
+            border: solid;
+            border-color: white;
+            background: gray;
+            display: flex;
+            margin: auto;
+            margin-top: 50%;
+        }
+        .card p {
+            text-align: center;
+        }
+        .photo p:nth-child(3) {
+            color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="portada">
+                <img src="https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?cs=srgb&dl=pexels-negative-space-169573.jpg&fm=jpg" alt="portada">
+            </div>
+            <div class="photo">
+                <img src="http://manuelaliramos.com/wp-content/uploads/2018/01/avatar.png" alt="photo">
+                <p>Héctor Santana</p>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
